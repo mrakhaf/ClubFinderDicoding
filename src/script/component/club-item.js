@@ -7,10 +7,10 @@ class ClubItem extends HTMLElement {
   render() {
     this.innerHTML = `
           <img class="fan-art-club" src="${this._club.fanArt}" alt="Fan Art">
-          <div class="club-info">
-              <h2>${this._club.name}</h2>
-              <p>${this._club.description}</p>
-          </div>`;
+         <div class="club-info">
+             <h2>${this._club.name}</h2>
+             <p>${this._club.description}</p>
+         </div>`;
   }
 }
 

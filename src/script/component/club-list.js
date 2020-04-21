@@ -10,7 +10,7 @@ class ClubList extends HTMLElement {
     this.innerHTML = "";
     this._clubs.forEach(club => {
       const clubItemElement = document.createElement("club-item");
-      clubItemElement.club = club
+      clubItemElement.club = club;
       this.appendChild(clubItemElement);
     })
   }
